@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Halaman Web Profile Wahyu Surya Pratama - Mahasiswa STT Terpadu Nurul Fikri">
+    <title>Web Profile - Wahyu Surya Pratama</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- ====================================================================
+         KONTEN UTAMA (SESUAI MOCKUP GAMBAR 5: DIRECTORY PROFILE PAGE)
+         ==================================================================== -->
+    <main class="main-container">
+        <!-- FRAME JENDELA DIREKTORI PROFIL (14F - Directory Profile Page) -->
+        <article class="window-frame">
+            
+            <!-- HEADER JENDELA MOCKUP -->
+            <div class="window-header">
+                <span class="window-title">Profile Wahyu Surya Pratama</span>
+                <div class="window-controls" aria-hidden="true">
+                    <span class="ctrl-btn minimize" title="Minimize"></span>
+                    <span class="ctrl-btn maximize" title="Maximize"></span>
+                    <span class="ctrl-btn close" title="Close"></span>
+                </div>
+            </div>
+
+            <!-- ISI JENDELA PROFIL -->
+            <div class="window-body">
+
+                <!-- 1. BAGIAN ATAS: FOTO DIRI + BIODATA LENGKAP + KATEGORI -->
+                <section class="profile-top-section" id="profile-info">
+                    
+                    <!-- a. Foto Diri -->
+                    <div class="profile-photo-wrapper">
+                        <img src="assets/img/profile-wahyu.jpg" alt="Foto Wahyu Surya Pratama" class="profile-photo">
+                        <span class="photo-badge">Mahasiswa Keren</span>
+                    </div>
+
+                    <!-- b. Biodata Lengkap -->
+                    <div class="profile-bio-wrapper">
+                        <h2 class="profile-name">Wahyu Surya Pratama</h2>
+                        <ul class="bio-list">
+                            <li>
+                                <span><strong>Alamat:</strong> Jl. Lenteng Agung Raya No. 20, Srengseng Sawah, Jagakarsa, Jakarta Selatan 12610</span>
+                            </li>
+                            <li>
+                                <span><strong>Kampus:</strong> Sekolah Tinggi Teknologi Terpadu Nurul Fikri (STT-NF)</span>
+                            </li>
+                            <li>
+                                <span><strong>Program Studi / NIM:</strong> Teknik Informatika / 0110226058</span>
+                            </li>
+                            <li>
+                                <span><strong>Email:</strong> <a href="mailto:wahyusurya581@gmail.com">wahyusurya581@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <span><strong>Telephone:</strong> <a href="tel:+6289670135967">+62 896 7013 5967</a></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Categories (Sesuai Mockup Kanan Atas) -->
+                    <aside class="profile-categories-wrapper" aria-label="Kategori dan Keahlian">
+                        <h3 class="categories-title">Categories</h3>
+                        <ul class="categories-list">
+                            <li>UI/UX Design</li>
+                            <li>Teknik Informatika</li>
+                            <li>Badminton</li>
+                        </ul>
+                    </aside>
+
+                </section>
+
+                <hr class="section-divider">
+
+                <!-- 2. BAGIAN TENGAH: DESKRIPSI DIRI (2 PARAGRAF) -->
+                <section class="profile-description-section" id="about-me">
+                    <h3 class="section-heading">Tentang Saya</h3>
+                    <p class="desc-paragraph">
+                        Halo! Saya <strong>Wahyu Surya Pratama</strong>, mahasiswa aktif Program Studi Teknik Informatika di Sekolah Tinggi Teknologi Terpadu Nurul Fikri (STT-NF) dengan NIM 0110226058. 
+                        Saya memiliki ketertarikan mendalam dan antusiasme dalam bidang <em>UI/UX Design</em>. Bagi saya, merancang sebuah aplikasi bukan sekadar menyusun tampilan, 
+                        melainkan seni menghadirkan pengalaman pengguna (User Experience) yang intuitif, nyaman, dan efisien, berpadu dengan antarmuka visual (User Interface) yang rapi, modern, serta mudah dipahami oleh siapa pun.
+                    </p>
+                    <p class="desc-paragraph">
+                        Selama perkuliahan di Teknik Informatika dan proyek praktikum, saya terus mengasah kemampuan berpikir logis, memecahkan masalah, dan bekerja sama dalam tim, termasuk mengelola alur kerja bersama menggunakan GitHub. 
+                        Di luar kegiatan akademik, saya gemar bermain badminton untuk menjaga kebugaran fisik serta melatih fokus dan sportivitas. 
+                        Saya berkomitmen untuk terus belajar hal baru, beradaptasi dengan perkembangan teknologi digital, dan siap berkolaborasi dalam menghasilkan karya inovatif yang bermanfaat nyata bagi masyarakat.
+                    </p>
+                </section>
+
+                <hr class="section-divider">
+
+                <!-- 3. BAGIAN BAWAH: 3 KOLOM (VIDEO + KOLEKSI FOTO + ATTACHMENTS DOWNLOAD) -->
+                <div class="profile-bottom-grid">
+
+                    <!-- Kolom Kiri: Multimedia Video -->
+                    <section class="grid-card video-card" id="multimedia">
+                        <h3 class="card-title">🎬 Multimedia Video</h3>
+                        <div class="video-container">
+                            <video controls poster="assets/img/profile-wahyu.jpg" preload="metadata">
+                                <source src="assets/video/WhatsApp Video 2026-10-21 at 8.43.31 AM.mp4" type="video/mp4">
+                                Browser Anda tidak mendukung pemutaran elemen video HTML5.
+                            </video>
+                        </div>
+                        <p class="card-caption">Video profil singkat dokumentasi kegiatan mahasiswa.</p>
+                    </section>
+
+                    <!-- Kolom Tengah: Koleksi Foto (Grid 2x2 Sesuai Mockup) -->
+                    <section class="grid-card gallery-card" id="gallery">
+                        <h3 class="card-title">📸 Koleksi Foto</h3>
+                        <div class="photo-grid-2x2">
+                            <figure class="photo-item">
+                                <img src="assets/img/WhatsApp Image 2026-10-21 at 10.16.02 PM.jpeg" alt="Foto Kegiatan 1 - Wahyu" loading="lazy">
+                                <figcaption>Dokumentasi 1</figcaption>
+                            </figure>
+                            <figure class="photo-item">
+                                <img src="assets/img/WhatsApp Image 2026-10-21 at 8.38.21 AM..jpeg" alt="Foto Kegiatan 2 - wahyus" loading="lazy">
+                                <figcaption>Dokumentasi 2</figcaption>
+                            </figure>
+                            <figure class="photo-item">
+                                <img src="assets/img/WhatsApp Image 2026-10-21 at 8.38.21 AM.jpeg" alt="Foto Kegiatan 3 - wAhyuS" loading="lazy">
+                                <figcaption>Dokumentasi 3</figcaption>
+                            </figure>
+                            <figure class="photo-item">
+                                <img src="assets/img/WhatsApp Image 2026-10-21 at 8.38.22 AM.jpeg" alt="Foto Kegiatan 4 - wAhyus" loading="lazy">
+                                <figcaption>Dokumentasi 4</figcaption>
+                            </figure>
+                        </div>
+                        <p class="card-caption">Koleksi foto dokumentasi kerja kelompok praktikum.</p>
+                    </section>
+
+                    <!-- Kolom Kanan: Attachments (Link Download File Sesuai Mockup) -->
+                    <aside class="grid-card attachments-card" id="attachments" aria-label="Lampiran Berkas Unduhan">
+                        <h3 class="card-title">📎 Attachments</h3>
+                        <ul class="attachment-list">
+                            <li>
+                                <a href="assets/docs/CV Wahyu Surya Pratama_20261002_235326_0000.pdf" target="_blank" class="attachment-link" title="Klik untuk membuka CV Wahyu Surya Pratama">
+                                    <div class="attach-info">
+                                        <span class="file-name">CV_Wahyu Surya Pratama.pdf</span>
+                                        <span class="file-action">Buka PDF</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/wahhyuurrya?exln=MWhrMmtzMHk5Mjdldw==" target="_blank attachment-link" title="Klik untuk membuka Instagram">
+                                    <div class="attach-info">
+                                        <span class="file-name">Membuka Instagram</span>
+                                        <span class="file-action">Membuka Instagram</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/docs/WAHYU SURYA PRATAMA(serti film).pdf" target="_blank" class="attachment-link" title="Klik untuk membuka Sertifikat">
+                                    <div class="attach-info">
+                                        <span class="file-name">Sertifikat_Wahyu.pdf</span>
+                                        <span class="file-action">Membuka Sertifikat</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+
+                </div>
+
+            </div>
+        </article>
+    </main>
+
+    <!-- ====================================================================
+         FOOTER (LAYOUT HTML5)
+         ==================================================================== -->
+    <footer class="site-footer">
+        <p> 2026 <strong>Wahyu Surya Pratama</strong> NIM: <strong>0110226058</strong> Praktikum 5: Layout Halaman Web STT Terpadu Nurul Fikri.</p>
+    </footer>
+
+</body>
+</html>
